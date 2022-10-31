@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 95vw;
+    height: 100vh;
+    background-color: #ffffff;
+    background: url(img/fondo2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin: 1.5rem;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    font-style: italic;
+}
+
+header h1 {
+    font-size:4.5rem;
+    color: #000000;
+    text-shadow: 0 0 4px;
+}
+
+.input {
+    width: 40%;
+    height: 45px;
+    margin-left: 30%;
+    margin-top: 3%;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    box-shadow: 0 0 12px #040404;
+    margin-bottom: 4rem;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 3rem;
+}
+
+.card {
+    width: 20%;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 20px #000000;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(0.9);
+}
+
+.img {
+    border: 2px solid #000000;
+    width: 60%;
+    height: 65%;
+    border-radius: 20px;
+}
